@@ -34,7 +34,7 @@ export class Countries extends Component {
       })
       .then((data) => {
         const countriesDataList = data.map((item) => {
-          return new Country(item.id, item.name, item.area);
+          return new Country(item.countries_id, item.name, item.area);
         });
 
         this.setState({ countriesData: countriesDataList });
@@ -98,7 +98,7 @@ export class Countries extends Component {
   deleteCountry = (index) => {
     //TODO: Creare funzione che cancella una nazione dal db
     fetch(
-      "http://contactmanager.business-specialist.tk/services/deleteBrands.php",
+      "http://contactmanager.business-specialist.tk/services/deleteCountry.php",
       {
         headers: {
           Accept: "application/json",
