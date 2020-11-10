@@ -1,0 +1,18 @@
+[
+    {
+        "name": "username",
+        "controlType": "text",
+        "controlClasses": ["class1", "class2"],
+        "validators": ["min_length_8"],
+        "value": "",
+        "options":""
+    },
+    {
+        "name": "sex",
+        "controlType": "select",
+        "controlClasses": ["class1", "class2"],
+        "validators": ["required"],
+        "value": "",
+        "options": [{"key":"1","text":"maschio"}, {"key":"2", "text":"femmina"}, {"key":"3","text":"all"}, {"key":"4", "text":"none"},{"key":"", "text":"Scegli uno", "selected":true}]
+    }
+]

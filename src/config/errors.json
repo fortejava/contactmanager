@@ -1,0 +1,12 @@
+[
+    {
+        "validatorName":"min_length_8",
+        "validatorErrorMessage": "La stringa deve essere lunga almeno 8 caratteri",
+        "validatorErrorCode":"1"
+    },
+    {
+        "validatorName":"required",
+        "validatorErrorMessage": "Il dato è richiesto",
+        "validatorErrorCode":"1"
+    }
+]
